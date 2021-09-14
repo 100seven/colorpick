@@ -2,12 +2,12 @@ $(document).ready(function(){
 
     var current = {
         'picker': "#bgpicker",
-        'color': "#F00",
+        'color': "#B6AFD6",
         'graphic': "#brush"
     };
 
     $("#bgpicker").colpick({
-        color: "#F00",
+        color: "#B6AFD6",
         onChange: function (hsb, hex, rgb, el, bySetColor) {
             var newColor = '#' + hex;
             $("#brush").css("fill", newColor);
@@ -16,7 +16,7 @@ $(document).ready(function(){
 	    onSubmit: function (hsb, hex, rgb, el) {
 		    $(el).colpickHide();
 	    }
-    }).css('background-color', "#F00");
+    }).css('background-color', "#B6AFD6");
 
 function rgb2hex(rgb) {
     rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);

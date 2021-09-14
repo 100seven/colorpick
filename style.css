@@ -19,7 +19,7 @@ body {
 }
 #controls span[data-type=color] {
   display: inline-block;
-  background-color: #F00;
+  background-color: #B6AFD6;
   border: 2px solid #AFAFAF;
   box-shadow: 1px 1px 4px black;
   border-radius: 40px;
@@ -135,7 +135,7 @@ body {
   top: 6px;
   width: 60px;
   height: 27px;
-  background: #F00;
+  background: #B6AFD6;
   border: 1px solid #8F8F8F;
 }
 
