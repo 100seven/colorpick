@@ -1,3 +1,23 @@
+/*
+svg{
+    width="1000px";
+    height="1000px";
+}
+@media all and (min-width:768px) and (max-width:1023px) {
+    svg{
+        width="600px";
+        height="600px";
+    }
+}
+
+
+
+
+
+
+
+*/
+
 body {
   background: #EEE;
   padding-top: 30px;
@@ -32,7 +52,7 @@ body {
 
 .colpick {
   position: absolute;
-  width: 346px;
+  width: 275px;
   height: 170px;
   overflow: hidden;
   display: none;
@@ -45,6 +65,7 @@ body {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+    margin-left: 20px;
 }
 
 .colpick_color {
@@ -189,7 +210,7 @@ body {
 }
 
 .colpick_hex_field {
-  width: 68px;
+  width: 60px;
   top: 121px;
 }
 
@@ -267,7 +288,7 @@ body {
   position: absolute;
   left: 207px;
   top: 146px;
-  width: 130px;
+  width: 60px;
   height: 18px;
   line-height: 18px;
   background: #EFEFEF;
